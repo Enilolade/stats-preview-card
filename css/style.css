@@ -46,7 +46,9 @@ h2 {
     height: 100%;
 }
 .image img {
-    filter: opacity(60%);
+    mix-blend-mode: multiply;
+    opacity: 80%;
+/*     filter: opacity(60%); */
     height: 100%;
     margin: auto;
     width: 100%;
